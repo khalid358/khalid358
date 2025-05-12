@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;700&display=swap');
+
+body {
+  font-family: "Raleway", san-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: dimgrey;
+  margin: 0;
+  background: floralwhite;
+}
+
+h1,
+h2 {
+  font-family: 'Great Vibes', ;
+  font-weight: 500;
+  font-style: normal;
+  color: dimgrey;
+}
+
+/* Website Links except the nav */
+a:link {
+  color: floralwhite;
+}
+
+a:visited {
+  color: floralwhite;
+}
+
+a:hover {
+  color: #6B4F3B;
+}
+
+a:active {
+  color: floralwhite;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  background: white;
+}
+
+/* Navigation */
+nav {
+  background-color: dimgrey;
+  border-top: 3px solid #6B4F3B;
+  border-bottom: 3px solid #6B4F3B;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 50px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: whitesmoke;
+}
+
+nav a:visited {
+  color: floralwhite;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:active {
+  color: whitesmoke;
+}
+
+.home-hero {
+  background-image: url(images/hero-image.jpg);
+  background-size: cover;
+}
+
+.home-hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: floralwhite;
+  text-shadow: 2px 2px 2px black;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.home-photo {
+  float: right;
+  max-width: 50%;
+  height: auto;
+  margin: 50px 0 10px 20px;
+}
+
+footer {
+  color: floralwhite;
+  text-align: center;
+  padding-top: 5px 0;
+  background: dimgrey;
+  background-position: center;
+}
+
+.footer-bottom {
+  background: floralwhite;
+  color: dimgrey;
+}
+
+h5 {
+  font-size: 1.5em;
+  color: floralwhite;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+.fa {
+  font-size: 4em;
+}
+
+.my-button:link {
+  background-color: dimgrey;
+  color: floralwhite;
+  border-radius: 50px;
+  border: 1px solid #111111;
+  padding: 8px 15px;
+  margin: 50px;
+}
+
+.my-button:hover {
+  background-color: #6B4F3B;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 0.9em;
+}
+
+.circle-image {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #6B4F3B;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  display: block;
+  background: #6B4F3B;
+  color: white;
+  padding: 0.7em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background: #6B4F3B;
+}
+
+a.w3-link {
+  color: dimgrey;
+  text-decoration: underline;
+}
+
+.resume-blockquote {
+  background-color: whitesmoke;
+  max-width: 1000px;
+  box-shadow: 4px 2px 2px gray;
+  margin-left: 100px;
+  padding: 35px;
+}
+
+/*Main */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  color: floralwhite;
+  text-align: center;
+  padding-top: 30px;
+  background: dimgrey;
+  background-position: center;
+  .fa {
+    font-size: 1.8em;
+  }
+}
+.contact-main {
+  background-image: url('images/hero-image.jpg'); 
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  padding: 50px;               
+  color: white;              
+}
+/* CSS without a media query--applies to all sizes unless overriddens */
+h1 {
+  font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
